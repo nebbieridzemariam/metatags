@@ -71,12 +71,18 @@ h3 {
 .lowerdis {
     display: none;
 }
+.forlower {
+    display: none;
+}
 
 
 
 @media (max-width: 375px) {
     .navbar {
         display: none;
+    }
+    .forlower {
+        display: inline;
     }
     .pic2 {
     width: 250px;
@@ -105,6 +111,7 @@ h3 {
     .lowerdis {
         width: 334px;
         height: 180px;
+        display: flex;
     }
     .bdng1 {
         display: none;
@@ -115,5 +122,11 @@ h3 {
     .textsection {
         display: flex;
         flex-direction: column;
+        margin: 20px;
+        font-size: 12px;
+    }
+    .about {
+        width: 334px;
+        height: 461px;    
     }
 }
